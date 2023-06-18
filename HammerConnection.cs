@@ -15,11 +15,7 @@ public class HammerConnection : MonoBehaviour
         rightPrimaryButton.action.performed += PrimaryButtonPressed;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
     
     void PrimaryButtonPressed(InputAction.CallbackContext context)
     {
